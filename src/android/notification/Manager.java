@@ -120,7 +120,7 @@ public final class Manager {
             return;
 
         channel = new NotificationChannel(
-                CHANNEL_ID, CHANNEL_NAME, IMPORTANCE_DEFAULT);
+                CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_HIGH);
 
         mgr.createNotificationChannel(channel);
     }
